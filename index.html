@@ -1,313 +1,390 @@
 <!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Siddharth Seth</title>
-  
   <meta name="author" content="Siddharth Seth">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/jpg" href="images/IISc_Master_Seal.jpg">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Include Font Awesome CDN in the <head> -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <!-- CSS Stylesheet -->
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    header {
+      background-color: #0066cc;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      /* background: white; */
+      /* border-radius: 8px; */
+      /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+    }
+
+    .profile-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .profile-section img {
+      width: 150px;
+      border-radius: 50%;
+      margin: 10px auto;
+    }
+
+    .profile-section div {
+      flex: 1;
+      padding: 10px;
+    }
+
+    .profile-section h2 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    .links {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .links a {
+      margin: 0 10px;
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-top: 20px;
+    }
+
+    section h3 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #0066cc;
+      display: inline-block;
+    }
+
+    section p {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    .news-container {
+      max-height: 30vh;
+      overflow-y: auto;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    }
+
+    .news-container p {
+      margin: 10px 0;
+      line-height: 1.5;
+    }
+
+    .publication {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+
+    .publication img {
+      width: 200px; /* Fixed width for uniformity */
+      height: auto; /* Automatically adjust height to preserve aspect ratio */
+      /* object-fit: cover; Ensures the image fits within the dimensions without distortion */
+      border-radius: 8px; /* Optional: Rounded corners for aesthetics */
+      margin-right: 20px; /* Space between the image and text */
+      display: block; /* Ensures proper layout within its container */
+    }
+
+    .publication div {
+      flex: 1;
+    }
+
+    .publication-content papertitle {
+      font-weight: 700;
+      font-size: 16px;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .conference {
+      color: red; /* Sets the text color to red */
+      font-weight: bold; /* Makes it stand out more */
+    }
+
+    .page-views {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .page-views h3 {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .footer {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 0.9rem;
+    }
+
+    .footer a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .no-underline {
+      text-decoration: none; /* Removes underline from specific links */
+      color: #0066cc; /* Maintains link color */
+    }
+
+    .header-link {
+      color: #ffffff; /* Matches header text color */
+      text-decoration: none; /* Removes underline */
+      font-weight: bold; /* Optional: Make the link bold */
+    }
+
+  </style>
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Siddharth Seth</name>
-              </p>
-              <p>I am a graduate student in the Vision and Learning Lab at UC Merced working under <a href="http://faculty.ucmerced.edu/mhyang/">Prof. Ming-Hsuan Yang</a>. Earlier, I graduated with a Masters from the <a href="https://www.iisc.ac.in/">Indian Institute of Science</a>, where I worked under the supervision of <a href="http://visual-computing.in/wp-content/uploads/2017/08/anirban-chakraborty.html">Dr. Anirban Chakraborty</a> and <a href="http://cds.iisc.ac.in/faculty/venky/">Prof. R. Venkatesh Babu</a>.
-              </p>
-              <p style="text-align:center">
-                <a href="mailto:ssiddharth@iisc.ac.in">Email</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=QDEa50oAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://github.com/sidsunny/">Github</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/sethssiddharth/">LinkedIn</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/siddharth_profile.png"><img style="width:70%;max-width:70%" alt="profile photo" src="images/siddharth_profile.png" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
-        
-        
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
-              <p>
-                I am interested in computer vision and machine learning, particularly 2D/3D generation. In the past, I have also worked on 3D human pose estimation and person re-identification.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-        
-        
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>News</heading>
-              <p>
-                <b> November 2024. </b> Recognized as one of the top reviewers for NeurIPS 2024
-              </p>
-              <p>
-                <b> October 2024. </b> Our work on modeling 3D human avatars with loose clothing has been accepted at WACV 2025
-              </p>
-              <p>
-                <b> June 2024. </b> Attending CVPR 2024 in Seattle. Excited!
-              </p>
-              <p>
-                <b> May 2024. </b> Joined <a href="https://www.bosch.com/">Bosch USA</a> as a Research Intern
-              </p>
-              <p>
-                <b> August 2023. </b> Joined <a href="http://vllab.ucmerced.edu/">Vision and Learning Lab</a> as a PhD student
-              </p>
-              <p>
-                <b> December 2022. </b> Started as a Research Intern in the <a href="https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence">VCAI</a> department at the Max Planck Institute for Informatics
-              </p>
-              <p>
-                <b> April 2022. </b> Our work on Image Forensics has been accepted at the Media Forensics Workshop, CVPR 2022
-              </p>
-              <p>
-                <b> April 2022. </b> Promoted to Senior Data Scientist at Verisk Analytics
-              </p>
-              <p>
-                <b> March 2022. </b> Our work on 3D human pose estimation has been accepted at CVPR 2022
-              </p>
-              <p>
-                <b> October 2021. </b> Our work on unsupervised person re-identification has been accepted at BMVC 2021
-              </p>
-              <p>
-                <b> September 2021. </b> Our work on 3D human pose estimation has been accepted at NeurIPS 2021
-              </p>
-              <p>
-                <b> September 2021. </b> Started as AI/ML Engineer at Verisk Analytics in the AI R&D team
-              </p>
-              <p>
-                <b> January 2021. </b> Joining Intel Labs, Bengaluru as a Graduate Technical Intern
-              </p> 
-              <p>
-                <b> August 2020. </b> <a href="https://www.iisc.ac.in/27368-2/">Our research</a> was highlighted in <a href="https://www.iisc.ac.in/featured-research/">IISc Featured Research</a> space
-              </p>  
-              <p>
-                <b> July 2020. </b> Attending <a href="http://lxmls.it.pt/2020/">LxMLS 2020</a> virtually
-              </p>
-              <p>
-                <b> June 2020. </b> Attending CVPR virtually
-              </p>
-              <p>
-                <b> February 2020. </b> Attending AAAI in New York
-              </p>
-              <p>
-                <b> February 2020. </b> Our paper on 3D human pose estimation has been accepted at CVPR 2020
-              </p>
-              <p>
-                <b> November 2020. </b> Our paper on 3D human pose estimation has been accepted at AAAI 2020
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
- 
-        
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Publications</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        
-        
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <!-- <header>
+    <h1>Siddharth Seth</h1>
+    <p>Graduate Student | <a href="http://vllab.ucmerced.edu/" class="header-link">Vision and Learning Lab</a></p>
+  </header> -->
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/wacv25_teaser.png" alt="WACV2025" width="160" style="border-style: none">
-            </td>
-            <td width="75%" valign="middle">
-<!--               <a href="https://arxiv.org/pdf/2203.15293.pdf" id="WACV25_avatar"> -->
-                <papertitle>PocoLoco: A Point Cloud Diffusion Model of Human Shape in Loose Clothing</papertitle>
-<!--               </a> -->
-              <br>
+  <div class="container">
+    <!-- Profile Section -->
+    <div class="profile-section">
+      <div>
+        <h2>Hello, I'm Siddharth!</h2>
+        <p>
+          I am a graduate student at UC Merced working under 
+          <a href="http://faculty.ucmerced.edu/mhyang/" class="no-underline">Prof. Ming-Hsuan Yang</a>. 
+        </p>
+        <p>
+          Earlier, I have had the opportunity to collaborate with some amazing researchers and mentors at the 
+          <a href="https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence" class="no-underline">Max Planck Institute for Informatics</a> and
+          <a href="https://www.iisc.ac.in/" class="no-underline">Indian Institute of Science</a>.
+        </p>
+        <p>
+          My research focuses on computer vision and machine learning, particularly 2D/3D generation. In the past, I have worked on human pose estimation and unsupervised person re-identification.
+        </p>
+      </div>
+      <img src="images/siddharth_profile.png" alt="Siddharth Seth">
+    </div>
+
+    <!-- Links Section -->
+    <div class="links">
+      <a href="mailto:sethssiddharth@gmail.com">
+        <i class="fas fa-envelope icon"></i> Email
+      </a>
+      <a href="https://scholar.google.com/citations?user=QDEa50oAAAAJ&hl=en">
+        <i class="fas fa-graduation-cap icon"></i> Google Scholar
+      </a>
+      <a href="https://github.com/sidsunny/">
+        <i class="fab fa-github icon"></i> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/sethssiddharth/">
+        <i class="fab fa-linkedin icon"></i> LinkedIn
+      </a>
+    </div>
+
+    <!-- Research Section -->
+    <!-- <section>
+      <h3>Research</h3>
+      <p>
+        
+      </p>
+    </section> -->
+
+    <!-- News Section -->
+    <section>
+      <h3>News</h3>
+      <div class="news-container">
+        <p><b>November 2024:</b> Recognized as one of the top reviewers for NeurIPS 2024.</p>
+        <p><b>October 2024:</b> Our work on 3D human avatars was accepted at WACV 2025!</p>
+        <p><b>June 2024:</b> Attending CVPR 2024 in Seattle. Excited!</p>
+        <p><b>May 2024:</b> Joined Bosch USA as a Research Intern.</p>
+        <p><b>August 2023:</b> Joined Vision and Learning Lab as a PhD student.</p>
+        <p><b>December 2022:</b> Started as a Research Intern at Max Planck Institute.</p>
+        <p><b>April 2022:</b> Our work on Image Forensics was accepted at CVPR 2022.</p>
+        <p><b>April 2022:</b> Promoted to Senior Data Scientist at Verisk Analytics.</p>
+        <p><b>March 2022:</b> Our work on 3D human pose estimation was accepted at CVPR 2022.</p>
+        <p><b>October 2021:</b> Our work on unsupervised person re-identification was accepted at BMVC 2021.</p>
+        <p><b>September 2021:</b> Our work on 3D human pose estimation was accepted at NeurIPS 2021.</p>
+        <p><b>September 2021:</b> Started as AI/ML Engineer at Verisk Analytics in the AI R&D team.</p>
+        <p><b>January 2021:</b> Joining Intel Labs, Bengaluru as a Graduate Technical Intern.</p>
+        <p><b>August 2020:</b> <a href="https://www.iisc.ac.in/27368-2/">Our research</a> was highlighted in <a href="https://www.iisc.ac.in/featured-research/">IISc Featured Research</a> space.</p>
+        <p><b>July 2020:</b> Attending <a href="http://lxmls.it.pt/2020/">LxMLS 2020</a> virtually.</p>
+        <p><b>June 2020:</b> Attending CVPR virtually.</p>
+        <p><b>February 2020:</b> Attending AAAI in New York.</p>
+        <p><b>February 2020:</b> Our paper on 3D human pose estimation has been accepted at CVPR 2020.</p>
+        <p><b>November 2020:</b> Our paper on 3D human pose estimation has been accepted at AAAI 2020.</p>
+        <!-- Add more news items as needed -->
+      </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section>
+      <h3>Publications</h3>
+      <div class="publication">
+        <img src="images/wacv25_teaser.png" alt="WACV 2025">
+        <div class="publication-content">
+          <papertitle>PocoLoco: A Point Cloud Diffusion Model of Human Shape in Loose Clothing</papertitle>
               <strong>Siddharth Seth</strong>,
-              <a href="https://rishabhdabral.github.io/">Rishabh Dabral</a>,
-              <a href="https://dluvizon.github.io/">Diogo C Luvizon</a>
-              <a href="https://people.mpi-inf.mpg.de/~mhaberma/">Marc Habermann</a>,
-              <a href="https://faculty.ucmerced.edu/mhyang/">Ming-Hsuan Yang</a>,
-              <a href="https://people.mpi-inf.mpg.de/~theobalt/">Christian Theobalt</a>,
-              <a href="https://genintel.mpi-inf.mpg.de/">Adam Kortylewski</a>,
-              <br>
-              <em>WACV</em>, 2025
-              <br>
-              <a href="https://vcai.mpi-inf.mpg.de/projects/pocoloco/">Project page</a> /
-              <a href="https://arxiv.org/pdf/2411.04249v2">Paper</a>
-              <p></p>
-<!--               <p>We propose a state-of-the-art 3D human avatar reconstruction with loose clothing.</p> -->
-            </td>
-          </tr>
-          
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/cvpr22_paper.jpg" alt="CVPR2022" width="160" style="border-style: none">
-            </td>
-            <td width="75%" valign="middle">
-<!--               <a href="https://arxiv.org/pdf/2203.15293.pdf" id="CVPR22_pose"> -->
-                <papertitle>Uncertainty-Aware Adaptation for Self-Supervised 3D Human Pose Estimation</papertitle>
-<!--               </a> -->
-              <br>
-              <a href="https://sites.google.com/view/jogendra/">Jogendra Nath Kundu</a>,
-              <strong>Siddharth Seth*</strong>,
-              Pradyumna YM*,
-              <a href="https://varunjampani.github.io/">Varun Jampani</a>,
-              <a href="http://visual-computing.in/wp-content/uploads/2017/08/anirban-chakraborty.html">Anirban Chakraborty</a>
-              <a href="http://cds.iisc.ac.in/faculty/venky/">R. Venkatesh Babu</a>,
-              <br>
-              <em>CVPR</em>, 2022
-              <br>
-              <a href="https://sites.google.com/view/mrp-net">Project page</a> /
-              <a href="https://arxiv.org/pdf/2203.15293.pdf">Paper</a>
-              <p></p>
-<!--               <p>We propose a state-of-the-art pose estimation approach.</p> -->
-            </td>
-          </tr>
+              <a href="https://rishabhdabral.github.io/" class="no-underline">Rishabh Dabral</a>,
+              <a href="https://dluvizon.github.io/" class="no-underline">Diogo C Luvizon</a>,
+              <a href="https://people.mpi-inf.mpg.de/~mhaberma/" class="no-underline">Marc Habermann</a>,
+              <a href="https://faculty.ucmerced.edu/mhyang/" class="no-underline">Ming-Hsuan Yang</a>,
+              <a href="https://people.mpi-inf.mpg.de/~theobalt/" class="no-underline">Christian Theobalt</a>,
+              <a href="https://genintel.mpi-inf.mpg.de/" class="no-underline">Adam Kortylewski</a>
+          <p>Winter Conference on Applications of Computer Vision (<span class="conference">WACV</span>), 2025</p>
+          <a href="https://vcai.mpi-inf.mpg.de/projects/pocoloco/" class="no-underline">Project Page</a> | <a href="https://arxiv.org/pdf/2411.04249v2" class="no-underline">Paper</a>
+        </div>
+      </div>
 
-          
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/bmvc21_paper.jpg" alt="BMVC2021" width="160" style="border-style: none">
-            </td>
-            <td width="75%" valign="middle">
-<!--               <a href="https://www.bmvc2021-virtualconference.com/assets/papers/1502.pdf" id="BMVC21_reid"> -->
-                <papertitle>Pose-Transformation and Radial Distance Clustering for Unsupervised Person Re-identification</papertitle>
-<!--               </a> -->
-              <br>
-              <strong>Siddharth Seth</strong>,
-              Akash Sonth,
-              <a href="http://visual-computing.in/wp-content/uploads/2017/08/anirban-chakraborty.html">Anirban Chakraborty</a>
-              <br>
-              <em>BMVC</em>, 2021
-              <br>
-              <a href="https://sites.google.com/view/posereid/home">Project page</a> /
-              <a href="https://www.bmvc2021-virtualconference.com/assets/papers/1502.pdf">Paper</a>
-              <p></p>
-<!--               <p>We propose a state-of-the-art person re-id approach.</p> -->
-            </td>
-          </tr>
-          
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/neurips21_paper.jpg" alt="NeurIPS2021" width="160" style="border-style: none">
-            </td>
-            <td width="75%" valign="middle">
-<!--               <a href="https://arxiv.org/pdf/2204.01971.pdf" id="NeurIPS21_pose"> -->
-                <papertitle>Non-Local Latent Relation Distillation for Self-Adaptive 3D Human Pose Estimation</papertitle>
-<!--               </a> -->
-              <br>
-              <a href="https://sites.google.com/view/jogendra/">Jogendra Nath Kundu</a>,
-              <strong>Siddharth Seth</strong>,
-              Anirudh Jamkhandi,
-              Pradyumna YM,
-              <a href="https://varunjampani.github.io/">Varun Jampani</a>,
-              <a href="http://cds.iisc.ac.in/faculty/venky/">R. Venkatesh Babu</a>,
-              <a href="http://visual-computing.in/wp-content/uploads/2017/08/anirban-chakraborty.html">Anirban Chakraborty</a>
-              <br>
-              <em>NeurIPS</em>, 2021
-              <br>
-              <a href="https://sites.google.com/view/sa3dhp">Project page</a> /
-              <a href="https://arxiv.org/pdf/2204.01971.pdf">Paper</a>
-              <p></p>
-<!--               <p>We propose a state-of-the-art pose estimation approach.</p> -->
-            </td>
-          </tr>
-          
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/cvpr20_paper.JPG" alt="CVPR2020" width="160" style="border-style: none">
-            </td>
-            <td width="75%" valign="middle">
-<!--               <a href="https://arxiv.org/pdf/2004.04400.pdf" id="CVPR20_pose"> -->
-                <papertitle>Self-Supervised 3D Human Pose Estimation via Part Guided Novel Image Synthesis</papertitle>
-<!--               </a> -->
-              <br>
-              <a href="https://sites.google.com/view/jogendra/">Jogendra Nath Kundu*</a>,
-              <strong>Siddharth Seth*</strong>,
-              <a href="https://varunjampani.github.io/">Varun Jampani</a>,
-              <a href="https://in.linkedin.com/in/rakesh-mugalodi-179476191">Rakesh Mugalodi</a>,
-              <a href="http://cds.iisc.ac.in/faculty/venky/">R. Venkatesh Babu</a>,
-              <a href="http://visual-computing.in/wp-content/uploads/2017/08/anirban-chakraborty.html">Anirban Chakraborty</a>
-              <br>
-              <em>CVPR</em>, 2020 (Oral)
-              <br>
-              <a href="https://sites.google.com/view/pgp-human">Project page</a> /
-              <a href="https://arxiv.org/pdf/2004.04400.pdf">Paper</a>
-              <p></p>
-<!--               <p>We propose a state-of-the-art pose estimation approach.</p> -->
-            </td>
-          </tr>
-          
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/AAAI20_represent.JPG" alt="AAAI2020" width="160" style="border-style: none">
-            </td>
-            <td width="75%" valign="middle">
-                <papertitle>Kinematic-Structure-Preserved Representation for Unsupervised 3D Human Pose Estimation</papertitle>
-              <br>
-              <a href="https://sites.google.com/view/jogendra/">Jogendra Nath Kundu*</a>,
-              <strong>Siddharth Seth*</strong>,
-              <a href="https://www.linkedin.com/in/rahul-mysore-venkatesh-64b27380">Rahul M. Venkatesh*</a>,
-              <a href="https://in.linkedin.com/in/rakesh-mugalodi-179476191">Rakesh Mugalodi</a>,
-              <a href="http://cds.iisc.ac.in/faculty/venky/">R. Venkatesh Babu</a>,
-              <a href="http://visual-computing.in/wp-content/uploads/2017/08/anirban-chakraborty.html">Anirban Chakraborty</a>
-              <br>
-              <em>AAAI</em>, 2020 (Oral)
-              <br>
-              <a href="https://sites.google.com/view/ksp-human">Project page</a> /
-              <a href="https://arxiv.org/pdf/2006.14107.pdf">Paper</a>
-              <p></p>
-<!--               <p>We propose a state-of-the-art pose estimation approach.</p> -->
-            </td>
-          </tr>
-          
-        </tbody></table>
+      <div class="publication">
+        <img src="images/cvpr22_paper.jpg" alt="CVPR2022">
+        <div class="publication-content">
+          <papertitle>Uncertainty-Aware Adaptation for Self-Supervised 3D Human Pose Estimation</papertitle>
+          <a href="https://sites.google.com/view/jogendra/" class="no-underline">Jogendra Nath Kundu</a>,
+          <strong>Siddharth Seth*</strong>,
+          <a href="" class="no-underline">Pradyumna YM*</a>,
+          <a href="https://varunjampani.github.io/" class="no-underline">Varun Jampani</a>,
+          <a href="http://visual-computing.in/wp-content/uploads/2017/08/anirban-chakraborty.html" class="no-underline">Anirban Chakraborty</a>,
+          <a href="http://cds.iisc.ac.in/faculty/venky/" class="no-underline">R. Venkatesh Babu</a>
+          <p>Computer Vision and Pattern Recognition (<span class="conference">CVPR</span>), 2022</p>
+          <a href="https://sites.google.com/view/mrp-net" class="no-underline">Project Page</a> | <a href="https://arxiv.org/pdf/2203.15293.pdf" class="no-underline">Paper</a>
+        </div>
+      </div>
 
-<!--         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Service</heading>
-            </td>
-          </tr>
-        </tbody></table> -->
+      <!-- Publication 1 -->
+      <div class="publication">
+        <img src="images/bmvc21_paper.jpg" alt="BMVC 2021">
+        <div class="publication-content">
+          <papertitle>Pose-Transformation and Radial Distance Clustering for Unsupervised Person Re-identification</papertitle>
+          <strong>Siddharth Seth</strong>, 
+          <a href="#" class="no-underline">Akash Sonth</a>, 
+          <a href="https://anirbanchakraborty.github.io/" class="no-underline">Anirban Chakraborty</a>
+          <p>British Machine Vision Conference (<span class="conference">BMVC</span>), 2021</p>
+          <a href="https://sites.google.com/view/posereid/home" class="no-underline">Project Page</a> | 
+          <a href="https://www.bmvc2021-virtualconference.com/assets/papers/1502.pdf" class="no-underline">Paper</a>
+        </div>
+      </div>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tbody>
-            <tr>
-              <td style="padding:40px;width:100%;vertical-align:middle">
-                <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=CgVYPugz07kw-0IZ1ykQiUqGqu8XtMOsCrcTdGJqrns&cl=ffffff&w=a"></script>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:right;font-size:small;">
-                <a href="https://github.com/jonbarron/jonbarron_website">Template</a>
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-      </td>
-    </tr>
-  </table>
+      <!-- Publication 2 -->
+      <div class="publication">
+        <img src="images/neurips21_paper.jpg" alt="NeurIPS 2021">
+        <div class="publication-content">
+          <papertitle>Non-Local Latent Relation Distillation for Self-Adaptive 3D Human Pose Estimation</papertitle>
+          <a href="https://sites.google.com/view/jogendra/" class="no-underline">Jogendra Nath Kundu</a>, 
+          <strong>Siddharth Seth</strong>, 
+          <a href="https://sites.google.com/view/sa3dhp" class="no-underline">Anirudh Jamkhandi</a>, 
+          <a href="https://varunjampani.github.io/" class="no-underline">Varun Jampani</a>, 
+          <a href="http://cds.iisc.ac.in/faculty/venky/" class="no-underline">R. Venkatesh Babu</a>, 
+          <a href="https://anirbanchakraborty.github.io/" class="no-underline">Anirban Chakraborty</a>
+          <p>Neural Information Processing Systems (<span class="conference">NeurIPS</span>), 2021</p>
+          <a href="https://sites.google.com/view/sa3dhp" class="no-underline">Project Page</a> | 
+          <a href="https://arxiv.org/pdf/2204.01971.pdf" class="no-underline">Paper</a>
+        </div>
+      </div>
 
-  
-  </body>
+      <!-- Publication 3 -->
+      <div class="publication">
+        <img src="images/cvpr20_paper.JPG" alt="CVPR 2020">
+        <div class="publication-content">
+          <papertitle>Self-Supervised 3D Human Pose Estimation via Part Guided Novel Image Synthesis</papertitle>
+          <strong>Siddharth Seth*</strong>,
+          <a href="https://sites.google.com/view/jogendra/" class="no-underline">Jogendra Nath Kundu*</a>,
+          <a href="https://varunjampani.github.io/" class="no-underline">Varun Jampani</a>, 
+          <a href="https://in.linkedin.com/in/rakesh-mugalodi-179476191" class="no-underline">Rakesh Mugalodi</a>, 
+          <a href="http://cds.iisc.ac.in/faculty/venky/" class="no-underline">R. Venkatesh Babu</a>, 
+          <a href="https://anirbanchakraborty.github.io/" class="no-underline">Anirban Chakraborty</a>
+          <p>Computer Vision and Pattern Recognition (<span class="conference">CVPR</span>), 2020 (Oral)</p>
+          <a href="https://sites.google.com/view/pgp-human" class="no-underline">Project Page</a> | 
+          <a href="https://arxiv.org/pdf/2004.04400.pdf" class="no-underline">Paper</a>
+        </div>
+      </div>
+
+      <!-- Publication 4 -->
+      <div class="publication">
+        <img src="images/AAAI20_represent.JPG" alt="AAAI 2020">
+        <div class="publication-content">
+          <papertitle>Kinematic-Structure-Preserved Representation for Unsupervised 3D Human Pose Estimation</papertitle>
+          <strong>Siddharth Seth*</strong>,
+          <a href="https://sites.google.com/view/jogendra/" class="no-underline">Jogendra Nath Kundu*</a>, 
+          <a href="https://www.linkedin.com/in/rahul-mysore-venkatesh-64b27380" class="no-underline">Rahul M. Venkatesh*</a>, 
+          <a href="https://in.linkedin.com/in/rakesh-mugalodi-179476191" class="no-underline">Rakesh Mugalodi</a>, 
+          <a href="http://cds.iisc.ac.in/faculty/venky/" class="no-underline">R. Venkatesh Babu</a>, 
+          <a href="https://anirbanchakraborty.github.io/" class="no-underline">Anirban Chakraborty</a>
+          <p>Association for the Advancement of Artificial Intelligence (<span class="conference">AAAI</span>), 2020 (Oral)</p>
+          <a href="https://sites.google.com/view/ksp-human" class="no-underline">Project Page</a> | 
+          <a href="https://arxiv.org/pdf/2006.14107.pdf" class="no-underline">Paper</a>
+        </div>
+      </div>
+
+      <!-- Add more publications similarly -->
+    </section>
+  </div>
+
+  <div class="page-views">
+    <h3>Page Views</h3>
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tbody>
+        <tr>
+          <td style="padding:40px;width:100%;vertical-align:middle">
+            <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=CgVYPugz07kw-0IZ1ykQiUqGqu8XtMOsCrcTdGJqrns&cl=ffffff&w=a"></script>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer class="footer">
+    <p>
+      <a href="https://github.com/jonbarron/jonbarron_website">Template Source</a>
+    </p>
+  </footer>
+</body>
 
 </html>
